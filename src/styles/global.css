@@ -1,0 +1,32 @@
+:root {
+  --primary: #E50914;
+  --grey: #141414;
+  --border: #4C4849;
+}
+
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--grey);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
